@@ -1,8 +1,8 @@
 {
   "name": "ringcentral-demo-fax-cover-page",
   "version": "1.0.0",
-  "description": "Custom Cover Page Demo in Node.js",
-  "main": "index.js",
+  "description": "Custom Cover Page Demo in python",
+  "main": "index.py",
   "dependencies": {
     "form-data": "^0.2.0",
     "handlebars": "^4.0.5",
