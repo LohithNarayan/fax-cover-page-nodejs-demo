@@ -17,12 +17,13 @@ def send_fax():
             #       { 'phoneNumber': "Recipient2-Phone-Number" }
             # ],
             'faxResolution': "High",
-            'coverPageText': "This is a demo Fax page from Python"
+            'coverPageText': "This is a demo Fax page from Python",
+            'coverIndex':"0"
         })
 
         with open('test.txt', "rb") as f:
             content = f.read()
-            attachment = ('test.jpg', content)
+            attachment = ('asset_file.pdf', "application/pdf")
             builder.add(attachment)
             request = builder.request('/restapi/v1.0/account/~/extension/~/fax')
         resp = platform.send_request(request)

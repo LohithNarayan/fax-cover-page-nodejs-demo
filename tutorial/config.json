@@ -1,6 +1,6 @@
 {
-    "title": "Learn creating custom fax cover page in Node.js",
-    "repo": "ringcentral-tutorials/fax-cover-page-nodejs-demo",
-    "description": "A step by step tutorial to get you started with creating custom fax cover page in Node.js.",
+    "title": "Learn creating custom fax cover page in python",
+    "repo": "ringcentral-tutorials/fax-cover-page-python-demo",
+    "description": "A step by step tutorial to get you started with creating custom fax cover page in python.",
     "heroku": false
 }

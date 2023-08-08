@@ -1,7 +1,7 @@
 {
   "name": "ringcentral-demo-fax-cover-page",
   "version": "1.0.0",
-  "description": "Custom Cover Page Demo in Node.js",
+  "description": "Custom Cover Page Demo in Python",
   "main": "index.js",
   "dependencies": {
     "form-data": "^0.2.0",
@@ -21,7 +21,7 @@
     "cover",
     "page"
   ],
-  "author": "Tyler Long",
+  "author": "Lohith A",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/grokify/ringcentral-demos-fax-cover-page/issues"
