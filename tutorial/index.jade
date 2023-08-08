@@ -1,11 +1,10 @@
-.chapter(data-title='RingCentral OAuth demo in Node.js')
+.chapter(data-title='RingCentral OAuth demo in Python')
   .step(data-title='Set up the project', data-file='README.md', data-highlight='24-26')
     :markdown
       * Clone the demo repo with git.
       * Install dependencies with NPM
 
-      *To install NPM, please install [Node.js](https://nodejs.org/)*
-
+      
   .step(data-title='Configure the app appropriately', data-file='.env.sample')
     :markdown
       ## Configuration
@@ -34,7 +33,7 @@
     :markdown
       Fax meta data is a json object where we can specify receivers, fax resolution and other properties of fax. After creating the meta data, append it to the `formData`.
 
-  .step(data-title='Append a custom cover page from HTML', data-file='index.js', data-highlight='30-44')
+  .step(data-title='Append a custom cover page from HTML', data-file='index.js', data-highlig4ht='30-44')
     :markdown
       RingCentral custom fax cover page can be rendered from HTML. Create an HTML page by `Handlebars` template engine. Append the HTML to the `formData` and set the `contentType` as `text/html`.
 
